@@ -1,6 +1,6 @@
 # BASKETBALL STATS
 
-## Brief description:
+## Description:
     This python project extracts data from https://api.sportsdata.io and creates a report with the data of a
     specific basketball team. In this report, it can also be found a forecast of their next match (either they
     win, tie or lose).
@@ -29,6 +29,9 @@
     previously removed, allows the user to enter the team name they want to have a report of in terminal. The
     second of them, opens the pdf report directly, however the Dockerfile will not function (a pdf image will
     be required).
+    
+## Output example:
+![alt text](https://github.com/SeroviICAI/Basketball-API-Stats/blob/master/example_report.png)
 
 ## Brief summary:
     In a nutshell: install all the requirements, enter your key on the "/src/config.txt" file, run "/src/main.py"
